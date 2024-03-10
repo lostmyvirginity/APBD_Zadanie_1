@@ -4,7 +4,10 @@
     {
         public static void Main()
         {
-            Console.WriteLine("Test");
+            for (int i = 1; i < 11; i++)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
