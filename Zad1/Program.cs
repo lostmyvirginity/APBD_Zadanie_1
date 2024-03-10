@@ -1,4 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace Zadanie_1
+{
+    public class Zad1
+    {
+        public static void Main()
+        {
 
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello c# world");
+        }
+    }
+}
+
