@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace APBD_Zadanie1.Zad1
+﻿namespace APBD_Zadanie1.Zad1
 {
     public class Zad1
     {
@@ -12,7 +10,15 @@ namespace APBD_Zadanie1.Zad1
             }
 
             int[] tab = { 1, 3, 2 };
+            Console.Write("Array:");
+            foreach (var x in tab)
+            {
+                Console.Write(" " + x);
+            }
+
+            Console.WriteLine();
             Console.WriteLine("Średnia: " + avg(tab));
+            Console.WriteLine("Max: " + max(tab));
         }
 
         public static float avg(int[] tabInt)
@@ -25,6 +31,10 @@ namespace APBD_Zadanie1.Zad1
 
             return avg / tabInt.Length;
         }
+
+        public static int max(int[] tabInts)
+        {
+            return tabInts.Max();
+        }
     }
 }
-
