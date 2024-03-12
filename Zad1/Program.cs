@@ -13,7 +13,7 @@
             Console.Write("Array:");
             foreach (var x in tab)
             {
-                Console.Write(" " + x);
+                Console.Write(" " + x + " test");
             }
 
             Console.WriteLine();
